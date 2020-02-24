@@ -2,7 +2,7 @@ package ContectList;
 
 import java.util.Scanner;
 
-public class AddContacts {
+public class AddContact {
     Person ob = new Person();
     ValidateInput ob1 = new ValidateInput();
 
@@ -61,7 +61,6 @@ public class AddContacts {
                 System.out.println("invalid email please re-enter");
                 System.out.print("Email Address: ");
                 a1 = addEmail(sc.nextLine());
-                continue;
             }
         }
         return ob;
